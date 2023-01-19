@@ -77,7 +77,7 @@ public struct CocoaViewPreviews: CocoaViewRepresentable {
 }
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, *)
-extension CocoaView {
+public extension CocoaView {
     func asSwiftUIPreviews() -> CocoaViewPreviews {
         CocoaViewPreviews(view: self)
     }
